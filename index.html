@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My-portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+ <!------nav----->
+    <div class="main">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="#">Portfo<span>lio.</span></a>
+          </div>
+          <ul id="dropdown">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-txt">
+          <h1>Hallo!</h1>
+          <h2>
+            I'm <span class="auto-type"></span>
+          </h2>
+          <p>
+            Frontend developer with over one year experience. 
+          <br>Welcome to my official website.
+          </p>
+          <a href="images/my-CV.pdf" download="">Download CV</a>
+        </div>
+      </div>
+    </div>
+
+    <!-----about---->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-row1">
+            <img src="images/myicon.jpg" alt="" height="" width="" />
+          </div>
+          <div class="about-row2">
+            <h1 class="subhead"><span>About</span></h1>
+            <p>
+              I have keen interest in frontend engineering as I love to create
+              applications with beautiful and delightful user experiences,
+              solve problems and share knowledge. I am also passionate about 
+              the growth of people around me. Skilled in HTML5, CSS, JavaScript, React, Version Control, GitHub and also contribute to open source projects. For leisure, I surf the internet and make leather bags. 
+            </p>
+            <div class="skill-tab">
+                <h3>Skills</h3>
+                <div class="list">
+                <div class="list-1">
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i>HTML</li>
+                        <p></i>Experienced</p>
+                        <li><i class="fa-brands fa-css3-alt"></i>CSS</li>
+                        <p>Experienced</p>
+                        <li><i class="fa-brands fa-square-js"></i>JavaScript</li>
+                        <p>Intermediate</p>
+                    </ul>
+                </div>
+                <div class="list-2">
+                    <ul>
+                        <li><i class="fa-brands fa-github"></i>GitHub</li>
+                        <p>Experienced</p>
+                        <li><i class="fa-brands fa-react"></i>React JS</li>
+                        <p>Intermediate</p>
+
+                    </ul>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+   
+    <!----projects--->
+    <div id="project">
+        <div class="container">
+            <h1 class="subtitle"> My <span>Projects</span></h1>
+            <div class="work-list">
+            
+                <div class="work">
+                    <img src="images/work2.png" alt="">
+                    <div class="layer">
+                        <h3>Redactr App</h3>
+                        <p>This App helps you to censor words that you don't want to make public. Using this app, you can select your symbol type to replace your words with.</p>
+                        <a href="https://redactr-app.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                    <div class="work">
+                    <img src="images/work1.png" alt="">
+                    <div class="layer">
+                        <h3>Login page</h3>
+                        <p>This page was styled using neumporhism </p>
+                        <a href="https://neum-login.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3a.png" alt="">
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p>This App was styled using neumporhism </p>
+                        <a href="https://olayinka-calculator.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work4.png" alt="">
+                    <div class="layer1">
+                        <h3>Clock App</h3>
+                        <p>This App was developed using HTML,CSS and JavaScript.</p>
+                        <a href="https://neumo-clock.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://replit.com/@ykay11" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------contact------->
+    <div id="contact">
+      <div class="container">
+        <!-- <h1 class="subtitle">Contact Me</h1> -->
+        <div class="row">
+            <div class="left-contact">
+                <h2 class="subhead">Contact Me</h2>
+                <p><i class="fa-solid fa-share-from-square"></i>fagbemio123@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+2348169234987</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/fagbemiolayinka"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Ola-ykay"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://twitter.com/Benoor_codes"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+            </div>
+            <div class="right-contact">
+                <form>
+                    <input type="text"name="Name" id="" placeholder="Your name" required>
+                    <input type="text"name="Email" id="" placeholder="Email" required>
+                    <textarea name="Message" rows="10px" cols="30px" placeholder="Your message"></textarea><br>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+      </div>  
+    </div>
+    <div class="footer">
+      <p>Copyright <i class="fa-regular fa-copyright"></i> 2022. Developed by Olayinka</p>
+    </div>
+     
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/4ab2318018.js" crossorigin="anonymous"></script>
+ <script src="script.js"></script>
+   
+</body>
+</html>
